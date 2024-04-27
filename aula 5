@@ -1,0 +1,39 @@
+//let p1 = parseFloat(prompt("Qual o preço do primeiro produto"))
+//let p2 = parseFloat(prompt("Qual o preço do segundo produto"))
+//let p3 = parseFloat(prompt("Qual o preço do terceiro produto"))
+
+//if(p1 < p2 && p1 < p3){
+    //console.log("O primeiro produto é mais barato")
+//}else if(p2 < p1 && p2< p3){
+  //  console.log("O segundo produto é mais barato")
+//}else if(p3 < p1 && p3< p2){
+    console.log("O terceiro produto é mais barato")
+//}else{
+   // console.log("O tres produtos custam o mesmo preço")
+//}  
+
+
+//let salario = parseFloat(prompt("Qual o seu salario"))
+
+//if(salario <= 280){
+ //   let aumento = 20
+   // let calculo = (salario * aumento)/100
+  //  let salariototal = salario + calculo
+   // console.log(`O salario base e ${salario}`)
+    //console.log(`O aumento foi de ${aumento}`)
+    //console.log(`O valor do aumento foi de ${calculo}`)
+    //console.log(`O valor total e de ${salariototal}`)
+   // }
+
+
+
+let altura = parseFloat(prompt("Qual sua altura?"))
+let genero = prompt("Qual seu genero? M - Masculino, F - Feminino"))
+
+if(genero == "F"){
+    letpesoideal = (62.1*altura) - 44,7
+    console.log(`Seu peso ideal é de kg${pesoideal}`)
+  {else if(genero == "M"){
+    letpesoideal = (72.7*altura) - 58
+    console.log(`Seu peso ideal é de kg${pesoideal}`)
+}
