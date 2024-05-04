@@ -27,3 +27,28 @@ for(let x = 0 ; x < 11 ; x++){
 
 
 
+
+let nome = (`Qual seu nome?`)
+
+
+
+
+
+if(nome.lenght > 3){
+    }
+let idade = parseInt(prompt("Qual sua idade?"))   
+if(idade > 0 && idade <= 150){
+}
+let salario = parseFloat(prompt("Qual o seu salario?"))
+if(salario > 0){
+}
+let genero = prompt("Qual seu genero? M - Masculino, F - Feminino")
+if(genero == "F"){
+}
+else if(genero == "M"){
+    }
+let estado_civil = prompt(`Qual seu estado civil? "s", "c","v" "d"`)
+if(estado_civil == "s"){
+    }
+else if(estado_civil == "c"){
+    
