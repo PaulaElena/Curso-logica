@@ -1,0 +1,29 @@
+console.log("Try programiz.pro");
+
+//let nome = "Paula"
+
+//console.log (nome.toUpperCase())
+//console.log (nome.toLowerCase())
+//console.log (nome[3])
+
+//for(let variavel = 0 ; variavel < 10 ; variavel++){
+ //   console.log(variavel)
+//}
+
+//let media = parseInt(prompt(`Quantas medias deseja colocar?`))
+//let soma = 0 
+//for (let variavel = 0; variavel < media ; variavel++){
+ //   soma += variavel
+ //   console.log (`Soma = ${soma}|Variavel = ${variavel}|${variavel} + soma}`)
+   // soma += variavel
+    
+//}
+
+let numero = parseInt(prompt(`Qual numero deseja ver a tabuada?`))
+
+for(let x = 0 ; x < 11 ; x++){
+    console.log(`${numero}x${x}=${numero*x}`)
+}
+
+
+
