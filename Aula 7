@@ -1,0 +1,19 @@
+usuario = "wildson"
+senha = "123"
+tentativa = 0
+while(true){
+    let user = prompt("Digite seu usuario.")
+    let password = prompt("Digite sua senha.")
+    if(user==usuario && password == senha){
+        console.log ("Voce esta logado");
+        break
+    }else{
+        console.log ("Usuario ou senha incorretos.");
+        tentativa++
+        if (tentativa >3) {
+            console.log ("Seu acesso foi bloqueado.")
+            break
+        }}}
+
+
+
