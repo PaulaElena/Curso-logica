@@ -1,0 +1,31 @@
+//let metro = parseFloat(prompt("Quantos centimetros"))
+//let centimetro = metro/100
+
+//console.log(centimetro)
+
+
+
+//let area = parseFloat(prompt("Qual a area do quadrado"))
+
+//console.log(area*2)
+
+//let valor = (prompt("Qual o seu valor"))
+//if (valor < 0){
+   // console.log("valor digitado é negativo")
+//}else {valor >=0
+//console.log ("valor digitado é positivo")
+//}
+
+
+let turno = prompt("Qual turno?")
+let Matutino = "M"
+let Vespertino = "V"
+let Noturno = "N"
+
+if(turno == "M"){
+   console.log("valor digitado é Matutino")
+}else if(turno == "V"){
+    console.log("valor digitado é Vespertino")
+}else {
+    console.log("valor digitado é Noturno")
+}
