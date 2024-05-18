@@ -29,3 +29,6 @@ if(turno == "M"){
 }else {
     console.log("valor digitado é Noturno")
 }
+     console.log("Bom dia!!")
+
+
