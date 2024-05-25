@@ -48,3 +48,13 @@ let celular = {
 }
 
 console.log(celular["Marca"])
+
+
+
+Façam um programa que tenha 4 opções, sendo elas 
+cadastrar clientes
+remover ultimo cliente
+ver lista de cliente
+sair da aplicaçao
+
+
