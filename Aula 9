@@ -1,0 +1,50 @@
+
+
+// Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+
+//console.log("Try programiz.pro");
+
+//let lista = ["Maça", 15, ["tomate", "cebola]", 2.5, true]
+
+
+pessoas = {
+    "nome": "Wildson", 
+    "profissão": ["Professor",
+    "Product Owner",
+    "Web developer"],
+    "Admin":true
+}
+
+//console.log (lista.lenght);
+
+//lista.push("Alho")
+//console.log(lista);
+
+//lista.pop()
+//console.log(lista);
+
+//console.log(lista[1])
+
+//for(var item in lista){
+    //console.log(lista[item])
+//}
+
+
+//log(lista[2][1]);
+
+//console.log(pesssoas["nome"])
+
+console.log(pessoas["profissoes"][2])
+
+
+
+
+
+let celular = {
+    "Marca": "Motorola",
+    "Preço": "2000.00",
+    "Cor": "Vermelho",
+}
+
+console.log(celular["Marca"])
