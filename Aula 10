@@ -1,0 +1,103 @@
+//console.log("Try programiz.pro");
+//Variáveis
+//string
+//number 
+//decimal
+//boleana
+//lista ou array indíce
+//map ou objeto se tiver colchete
+
+
+//[] lista de informações, vai decifrar 
+
+//lista_compras = [["Carne",["promoção", "29,90"]]]
+//console.log(lista_compras[0][1][0]);
+
+
+let animal = [{
+  "nome": "cavalo",
+  "peso": "800kg",
+  "altura": "1.45 cm",
+  "cor": "marrom",
+  "raca": "crioulo"
+},
+{
+"nome":"cachorro",
+"peso":"2kg",
+"altura":"20cm",
+"cor":"marrom",
+"raca":"caramelo"
+}
+]
+console.log(animal[1]["nome"])
+
+
+// console.log("Bom dia")
+// let texto = "string"
+// let boleana = false
+// let inteiro = 21 
+// let decimal = 12.5
+// let lista = []
+// let objeto = {}
+
+
+//let nome = "JavaScrit"
+
+//let x = 0
+//while (x < 1000000) {
+ //   console.log(x)
+//}
+
+
+// usuario = "wildson"
+// senha = "123"
+// while(true){
+//     let user = prompt("Digite seu usuario.")
+//     let password = prompt("Digite sua senha.")
+//     if(user==usuario && password == senha){
+//         console.log ("Voce esta logado");
+//         break
+//     }else{
+//         console.log ("Usuario ou senha incorretos.");
+//         tentativa++
+//         if (tentativa >3) {
+//             console.log ("Seu acesso foi bloqueado.")
+//             break
+//          }}}
+   
+    
+letjogador_1 = prompt("Qual sua jogada? 1.Pedra 2.Papel 3.Tesoura")
+let jogador_2 = prompt("Qual sua jogada? 1.Pedra 2.Papel 3.Tesoura")
+
+if (jogador_1 == jogador_2) {
+    console.log("jogador 2 venceu");    
+}elseif(jogador_1 == "2" && jogador_2 == "1"){
+    console.log("jogador 1 venceu");
+}elseif(jogador_1 == "3" && jogador_2 == "2"){
+    console.log("jogador 1 venceu");
+}elseif(jogador_2 == "1" && jogador_2 == "2" ){
+    console.log("jogador 1 venceu");
+ }else{
+    console.log("")
+ }
+   
+ }
+
+
+
+let produto = "nome"
+  let valor = "preço"
+console.log(produtos["products"][0]["title"]);
+for(let indice in produtos["products"]){
+
+}
+
+
+///forma simplificada -lista.forEach(parametro => {retorno
+//});
+
+let lista = ["pao","uva","arroz"]
+lista.forEach(produto => {console.log(produto)
+    });
+
+animal[1]["filhotes"].forEach(filho =>console.log(filho["nome"]));
